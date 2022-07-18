@@ -2,7 +2,7 @@
 
 ## Part 1  - Base of Python
 
-Survey of the users behavior in Moscow and Saint-Petersburg in yandex music app.
+**Survey of the users behavior in Moscow and Saint-Petersburg in yandex music app.**
 
 Subjects Covered: Python, Jupyter Notebook, Pandas
 
