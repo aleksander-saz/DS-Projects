@@ -102,13 +102,12 @@ Main tasks of the Project:
 
 ## Part 10 - SQL
 
-** Short Porject Description** 
+**SQL queries and data visualisation** 
 
-Subject Covered:
+Subject Covered: SQL, plot
 
 Main tasks of the Project:
-- 1
-- 2
+- to execute all required queries, to visualize the data and answer the questions.
 
 
 ## Part 11 - Pyspark
