@@ -7,9 +7,9 @@
 Subjects Covered: Python, Jupyter Notebook, Pandas
 
 Main tasks of the Project:
- - Import of data
- - Data preparation
- - Hypothesis testing
+ - Import of data,
+ - Data preparation,
+ - Hypothesis testing.
 
 ## Part 2  - Data Preparation
 
@@ -104,10 +104,12 @@ Main tasks of the Project:
 
 **SQL queries and data visualisation** 
 
-Subject Covered: SQL, plot
+Subject Covered: SQL, py.plot
 
 Main tasks of the Project:
-- to execute all required queries, to visualize the data and answer the questions.
+- to execute all required queries,
+- to visualize the data,
+- answer the questions.
 
 
 ## Part 11 - Pyspark
