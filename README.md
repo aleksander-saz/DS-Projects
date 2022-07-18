@@ -3,7 +3,7 @@
 ## Part 1  - Base of Python
 ## Part 2  - Data Preparation
 ## Part 3  - Data Analysis
-## Part 4  - First Combinde Project
+## Part 4  - First Combined Project
 ## Part 5  - Statictics
 ## Part 6  - intro in Machine Learning
 ## Part 7  - ML with teacher
