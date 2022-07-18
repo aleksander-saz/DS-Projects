@@ -1,18 +1,19 @@
 # Data-Scientist-Projects:
 
-## Part 1 
-## Part 2
-## Part 3
-## Part 4
-## Part 5
-## Part 6
-## Part 7
-## Part 8
-## Part 9
-## Part 10
-## Part 11
-## Part 12
-## Part 13
-## Part 14
+## Part 1 - Base of Python
+## Part 2 - Data Preparation
+## Part 3 - Data Analysis
+## Part 4 - First Combinde Project
+## Part 5 - Statictics
+## Part 6 - intro in Machine Learning
+## Part 7- ML with teacher
+## Part 8 - ML in Business
+## Part 9 - Second Combined Project
+## Part 10 - Total commander / GitHub & etc
+## Part 11 - Pyspark
+## Part 12 - Linear Algebra
+## Part 13 - Numeral Methods
+## Part 14 - Neural Networks
+## Part 15 - Third Combined Project
 
 
