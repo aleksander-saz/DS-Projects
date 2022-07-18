@@ -1,6 +1,18 @@
 # Data-Scientist-Projects:
 
 ## Part 1  - Base of Python
+
+Survey of the users behavior in Moscow and Saint-Petersburg in yandex music app.
+
+Subjects Covered: Python, Jupyter Notebook, Pandas
+
+Main tasks:
+ - Import of data
+ - Data preparation
+ - Hypothesis testing
+
+
+
 ## Part 2  - Data Preparation
 ## Part 3  - Data Analysis
 ## Part 4  - First Combined Project
