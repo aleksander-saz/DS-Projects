@@ -119,13 +119,17 @@ Main tasks of the Project:
 
 ## Part 9  - Second Combined Project
 
-**Short Porject Description** 
+**Forecast of client loss for the hotel chain** 
 
-*Subject Covered:*
+*Subject Covered: Pandas, Numpy, pyplot, Sklearn, statistics, standart ML models*
 
 Main tasks of the Project:
-- 1
-- 2
+- Data preparation and exploratory analysis,
+- Definition of ML business task,
+- Models training and testing,
+- Description of the unrelaible client,
+- Calculation of the breakeven point,
+- Analysis of integration of ML methods for avoiding of the profit losses.
 
 <hr />
 
@@ -144,38 +148,45 @@ Main tasks of the Project:
 
 ## Part 11 - Pyspark
 
-**Short Porject Description** 
+**Forecast of the real estate price** 
 
-*Subject Covered:*
+*Subject Covered: Pandas, Pyspark, Numpy, Sklean, ML standart models, linear algebra*
 
 Main tasks of the Project:
-- 1
-- 2
+- Import, data preparation and analysis using Pyspark,
+- Data encoding,
+- Model training and testing,
+- Analysis of the obtained results.
 
 <hr />
 
 ## Part 12 - Linear Algebra
 
-**Short Porject Description** 
+**Personal data protection in insurance company** 
 
-*Subject Covered:*
+*Subject Covered: Pandas, Numpy, Sklearn, Linear Algebra, standart ML models, *
 
 Main tasks of the Project:
-- 1
-- 2
+- Import and data analysis,
+- Matrix multiplying,
+- Algorythm of the data transformation,
+- Testing of the Algorythm.
 
 <hr />
 
 ## Part 13 - Numeral Methods
 
 
-**Short Porject Description** 
+**Definition of the cost of the cars** 
 
-*Subject Covered:*
+*Subject Covered: Numpy, Pandas, Sklearn, Gradient boost, Standart ML models and metrics*
 
 Main tasks of the Project:
-- 1
-- 2
+- Import and analysis of the data,
+- Data preparation,
+- Data encoding,
+- Model training and testing,
+- Analysis of obtained results.
 
 <hr />
 
