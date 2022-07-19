@@ -13,57 +13,66 @@ Main tasks of the Project:
 
 ## Part 2  - Data Preparation
 
-** Short Porject Description** 
+**Survey of the reliablity of the bank clients** 
 
-Subject Covered:
+Subject Covered: Pandas, Lemmatization
 
 Main tasks of the Project:
-- 1
-- 2
-- 
+- Import of data and it's prelimiary analysis,
+- Data preparation,
+- Answers on the Project questions.
 
 ## Part 3  - Data Analysis
 
-** Short Porject Description** 
+**Survey of the advertisements on real estate sale** 
 
-Subject Covered:
+Subject Covered: Pandas, Pyplot, Statistics
 
 Main tasks of the Project:
-- 1
-- 2
+- Data Preparation, 
+- Exploratory analysis,
+- Analysis of the characteristics of real estate properties.
 
 
 ## Part 4  - First Combined Project
 
-** Short Porject Description** 
+**Survey of the cinema destribution data** 
 
-Subject Covered:
+Subject Covered: Pandas, Pyplot, Statistics
 
 Main tasks of the Project:
-- 1
-- 2
+- Data Preparation, 
+- Exploratory analysis,
+- Descriptive statistic,
+- Survey of the movies with goverment support.
 
 
 ## Part 5  - Statictics
 
-** Short Porject Description** 
+**Survey of the mobile operator plans** 
 
-Subject Covered:
+Subject Covered: Pandas, Pyplot, Statistics
 
 Main tasks of the Project:
-- 1
-- 2
+- Data Preparation,
+- Calculation of the income,
+- Exploratory analysis,
+- Hypothesis testing.
 
 
 ## Part 6  - intro in Machine Learning
 
-** Short Porject Description** 
+**Recommendation of the mobile phone plans from the operator** 
 
-Subject Covered:
+Subject Covered: Pandas, Sklearn, standart ML modeles
 
 Main tasks of the Project:
-- 1
-- 2
+- Import of the data,
+- Split of the data for the Ml purposes,
+- Training of the models and analysis of result,
+- Finding of the optimal hyperparameters,
+- Model testing,
+- Testing of the model adequacy.
 
 
 ## Part 7  - ML with teacher
