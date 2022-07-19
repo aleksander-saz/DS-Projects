@@ -95,20 +95,25 @@ Main tasks of the Project:
 - Data Preparation,
 - Split of the data for the Ml purposes,
 - Solving of imbalance,
+- Model training,
 - Finding of the optimal hyperparameters,
-- Model testing
+- Model testing.
 
 <hr />
 
 ## Part 8  - ML in Business
 
-**Short Porject Description** 
+**Selection of the optimal location of the drilling for the oil company** 
 
-*Subject Covered:*
+*Subject Covered: Pandas, Sklearn, standart ML models, ML metrics*
 
 Main tasks of the Project:
-- 1
-- 2
+- Data Preparation,
+- Model trainig,
+- Model testing,
+- Calculation of the breakeven point,
+- Calculation of profit and risk,
+- Recommendation of the preferable location.
 
 <hr />
 
