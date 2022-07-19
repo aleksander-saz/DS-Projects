@@ -137,7 +137,7 @@ Main tasks of the Project:
 
 **SQL queries and data visualisation** 
 
-*Subject Covered: SQL, py.plot*
+*Subject Covered: SQL, pyplot*
 
 Main tasks of the Project:
 - to execute all required queries,
