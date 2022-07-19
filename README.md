@@ -73,7 +73,7 @@ Main tasks of the Project:
 
 **Recommendation of the mobile phone plans from the operator** 
 
-*Subject Covered: Pandas, Sklearn, standart ML modeles*
+*Subject Covered: Pandas, Sklearn, standart ML models*
 
 Main tasks of the Project:
 - Import of the data,
@@ -87,13 +87,16 @@ Main tasks of the Project:
 
 ## Part 7  - ML with teacher
 
-** Short Porject Description** 
+**Forecast of the client loss from the Bank** 
 
-*Subject Covered:*
+*Subject Covered: Pandas, Sklearn, standart ML models, ML metrics*
 
 Main tasks of the Project:
-- 1
-- 2
+- Data Preparation,
+- Split of the data for the Ml purposes,
+- Solving of imbalance,
+- Finding of the optimal hyperparameters,
+- Model testing
 
 <hr />
 
