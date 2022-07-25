@@ -191,7 +191,18 @@ Main tasks of the Project:
 <hr />
 
 ## Part 14 - Neural Networks
- - To be updated after the completion of the Project
+
+**Prediction of the star temperature** 
+
+*Subject Covered:  Pandas, Sklearn, Torch, Nerual networks, pyplot*
+
+Main tasks of the Project:
+- Import and analysis of the data,
+- Data preparation,
+- Data encoding,
+- Neural networks development, training and testing,
+- Increase of NN parameters,
+- Analysis of obtained results.
 
 <hr />
 
