@@ -1,7 +1,15 @@
 # Data-Scientist-Projects:
 <hr />
 
-## Part 1  - Base of Python
+Certificate:
+
+____
+
+This repository manly for projects i've done during Yandex Practicum Data Scientist Courses.
+
+Yandex Practicum data scientist programm prpare me for a career as a data analyst or scientist
+
+## Project 1  - Intro to Machine Learning
 
 **Survey of the users behavior in Moscow and Saint-Petersburg in yandex music app.**
 
@@ -14,7 +22,7 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 2  - Data Preparation
+## Project 2  - Data Preparation
 
 **Survey of the reliablity of the bank clients** 
 
@@ -27,7 +35,7 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 3  - Data Analysis
+## Project 3  - Data Analysis
 
 **Survey of the advertisements on real estate sale** 
 
@@ -41,7 +49,7 @@ Main tasks of the Project:
 <hr />
 
 
-## Part 4  - First Combined Project
+## Project 4  - First Combined Project
 
 **Survey of the cinema destribution data** 
 
@@ -55,7 +63,7 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 5  - Statictics
+## Project 5  - Statictics
 
 **Survey of the mobile operator plans** 
 
@@ -69,7 +77,7 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 6  - intro in Machine Learning
+## Project 6  - intro in Machine Learning
 
 **Recommendation of the mobile phone plans from the operator** 
 
@@ -85,7 +93,7 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 7  - ML with teacher
+## Project 7  - ML with teacher
 
 **Forecast of the client loss from the Bank** 
 
@@ -101,7 +109,7 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 8  - ML in Business
+## Project 8  - ML in Business
 
 **Selection of the optimal location of the drilling for the oil company** 
 
@@ -117,7 +125,7 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 9  - Second Combined Project
+## Project 9  - Second Combined Project
 
 **Forecast of client loss for the hotel chain** 
 
@@ -133,7 +141,7 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 10 - SQL
+## Project 10 - SQL
 
 **SQL queries and data visualisation** 
 
@@ -146,7 +154,7 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 11 - Pyspark
+## Project 11 - Pyspark
 
 **Forecast of the real estate price** 
 
@@ -160,7 +168,7 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 12 - Linear Algebra
+## Project 12 - Linear Algebra
 
 **Personal data protection in insurance company** 
 
@@ -174,7 +182,7 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 13 - Numeral Methods
+## Project 13 - Numeral Methods
 
 
 **Definition of the cost of the cars** 
@@ -190,7 +198,7 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 14 - Neural Networks
+## Project 14 - Neural Networks
 
 **Prediction of the star temperature** 
 
@@ -206,7 +214,86 @@ Main tasks of the Project:
 
 <hr />
 
-## Part 15 - Third Combined Project
- - To be updated after the completion of the Project
+## Project 15 - Third Combined Project
+
+**Prediction of the accident possibility for carsharing company** 
+
+*Subject Covered:  SQL, sqlalchemy, Pandas, Sklearn, torch, Neural Networks, pyplot*
+
+Main tasks of the Project:
+- Import of data and completion of EDA, 
+- Statistickal data analysis,
+- Data preparation,
+- Data encoding,
+- Neural networks development, training and testing,
+- Trainig of the standart ML classification models,
+- Analysis of obtained results and analysis of the influence of hyperparameters
+ 
+## Project 16 - Time Series
+
+**Prediction of the taxi orders in time** 
+
+*Subject Covered: Pandas, Sklearn, Time Series, statsmodels, matplotlib*
+
+Main tasks of the Project:
+- Import of data and completion of EDA, 
+- Statistickal data analysis,
+- Data preparation,
+- Trainig of the standart ML regression models,
+- model testing and analysis of results
+
+## Project 17 - NLP
+
+**Automatization processing of the comments for the internet store** 
+
+*Subject Covered: Nltk, rregular expressions, numpy, limmatization, scipy, tqdm, Pandas, Sklearn,, matplotlib*
+
+Main tasks of the Project:
+- Import of data and completion of EDA, 
+- Data lemmatization and padding,
+- Data preparation - text to hyperparameters,
+- Trainig of the standart ML regression models,
+- increase of models result - imbalance solving, hyperparameters tuning,
+- model testing and analysis of results
+
+## Project 18 - Computer Vision
+
+**Prediction of the clients age for the grocery store** 
+
+*Subject Covered: Tensorflow, Keras, Pandas, Sklearn,, matplotlib*
+
+Main tasks of the Project:
+- Import of data and completion of EDA, 
+- Data analysis and visualization,
+- Model development and training of it on GPU,
+- Analysis of results
+
+## Project 19 - Fourth Combined Project
+
+**Development of the model for image search by text query** 
+
+*Subject Covered: Nltk, torch, lemmatization, Keras, Pandas, Sklearn,, matplotlib*
+
+Main tasks of the Project:
+- Import of data and completion of EDA, 
+- Data preparation,
+- Vectorization of images and texts,
+- Models training and selection of best model for testing,
+- Development of one button fuction for testing of the final model,
+- Analysis of the result and making a conclusions
+
+## v 20 - Graduational Project
+
+**Prediction of temperature for optimization of ulectricity costs on steel manufacturing** 
+
+*Subject Covered: SQL, Torch, lightgbm, phik, Pandas, Sklearn,, matplotlib*
+
+Main tasks of the Project:
+- Import of data and completion of EDA, 
+- Data preparation,
+- Vectorization of images and texts,
+- Models training and selection of best model for testing,
+- Development of one button fuction for testing of the final model,
+- Analysis of the result and making a conclusions
 
 
