@@ -52,6 +52,8 @@ Based on the provided data from Ministry of Culture (open data from Ministry of 
 
 ### Project 5 - Survey of the mobile operator plans
 
+Company "Megaline" - Federal Mobile operator rolls out new mobile plans - "Smart" and "Ultra". Based on the provided data from mobile oprater it's required to analyze two plans and client's behavior to understand what plan will bring bigger income to the company. 
+
 *More detailed description you can find in readme of Project 5*
 
 ### Project 6  - Recommendation of the mobile phone plans for the mobile operator's company
