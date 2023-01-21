@@ -15,11 +15,11 @@ Yandex Practicum data scientist programm prpared me for a career of a data analy
 
 **Subject Covered:**
 
--  *Pandas, Pyplot, Statistics*
--  -
-- -
-- -
-- -
+-  Pandas, Pyplot, Statistics
+-  
+- 
+- 
+- 
 - 
 
 ### Project 1  - Survey of the users behavior in yandex music app
@@ -36,9 +36,13 @@ Based on the provided data from client (Credit department of the Bank) it's requ
 
 ### Project 3  - Survey of the advertisements on real estate sales
 
+Based on the provided data from real estate company (archive of an apartment sales in Saint-Petersburg and nearest cities for the past few years) it's required to define arameters which has the highest influence on the market prices of apartments. The definition of these parameters will allow the client to develop the system of automatization  of the price calculation and would tracks the anomalies and scammers activity.
+
 *More detailed description you can find in readme of Project 3*
 
 ### Project 4  - Survey of the cinema destribution data
+
+Based on the provided data from Ministry of Culture it's required analyze the market of the movies in the cinema theaters.
 
 *More detailed description you can find in readme of Project 4*
 
