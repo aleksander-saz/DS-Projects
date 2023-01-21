@@ -22,18 +22,25 @@ Yandex Practicum data scientist programm prpared me for a career of a data analy
 - -
 - 
 
-### Project 1  - Survey of the users behavior in Moscow and Saint-Petersburg in yandex music app
+### Project 1  - Survey of the users behavior in yandex music app
 
-detailed description of p-t 1
+Based on the provided data of yandex music app it's required to carry out the analysis using pandas library and find the most popular genres in Saint-Petersburg and Moscow. 
+
+*More detailed description you can find in readme of Project 1*
 
 ### Project 2  - Survey of the reliablity of the bank clients
 
+Based on the provided data from client (Credit department of the Bank) it's required to analyze the data using pandas library and summarize how does the marital status and quantity of child are influence on the payment of oustandins fees in the specified duration in credit contract.
+
+*More detailed description you can find in readme of Project 2*
 
 ### Project 3  - Survey of the advertisements on real estate sales
 
+*More detailed description you can find in readme of Project 3*
 
 ### Project 4  - Survey of the cinema destribution data
 
+*More detailed description you can find in readme of Project 4*
 
 <hr />
 
@@ -41,29 +48,51 @@ detailed description of p-t 1
 
 ### Project 5 - Survey of the mobile operator plans
 
+*More detailed description you can find in readme of Project 5*
+
 ### Project 6  - Recommendation of the mobile phone plans for the mobile operator's company
+
+*More detailed description you can find in readme of Project 6*
 
 ### Project 7  - Forecast of the loss of clients in the Bank
 
+*More detailed description you can find in readme of Project 7*
+
 ### Project 8  - Selection of the optimal location of the drilling for the oil company
+
+*More detailed description you can find in readme of Project 8*
 
 ### Project 9  - Forecast of client loss for the hospitality company 
 
+*More detailed description you can find in readme of Project 9*
+
+### Project 10 - Forecast of the real estate price
+
+*More detailed description you can find in readme of Project 10*
+
 <hr />
 
-## Part 3 - SQL, BIG Data, Linaear Algebra and Calculus
+## Part 3 - SQL, BIG Data, Linaear Algebra, Calculus, Nerual Networks
 
-### Project 10 - SQL queries and data visualisation
+### Project 11 - Personal data protection in insurance company
 
-### Project 11 - Forecast of the real estate price
+*More detailed description you can find in readme of Project 11*
 
-### Project 12 - Personal data protection in insurance company
+### Project 12 - Definition of the cost of the cars
 
-### Project 13 - Definition of the cost of the cars
+*More detailed description you can find in readme of Project 12*
 
-### Project 14 - Prediction of the star temperature
+### Project 13 - Prediction of the star temperature
 
-### Project 15 - Prediction of the accident possibility for carsharing company
+*More detailed description you can find in readme of Project 13*
+
+### Project 14 - Prediction of the accident possibility for carsharing company
+
+*More detailed description you can find in readme of Project 14*
+
+### Project 15 - SQL queries
+
+*More detailed description you can find in readme of Project 15*
 
 <hr />
 
@@ -71,17 +100,27 @@ detailed description of p-t 1
  
 ### Project 16 - Prediction of the taxi orders in time
 
+*More detailed description you can find in readme of Project 16*
+
 ### Project 17 - Automatization processing of the comments for the internet store
+
+*More detailed description you can find in readme of Project 17*
 
 ### Project 18 - Prediction of the clients age for the grocery store
 
+*More detailed description you can find in readme of Project 18*
+
 ### Project 19 - Development of the model for image search by text query
+
+*More detailed description you can find in readme of Project 19*
 
 <hr />
 
 ## Graduational Project
 
 **Prediction of temperature for optimization of ulectricity costs on steel manufacturing** 
+
+*More detailed description you can find in readme of Project 20*
 
 
 
