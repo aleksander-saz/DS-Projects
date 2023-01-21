@@ -52,15 +52,19 @@ Based on the provided data from Ministry of Culture (open data from Ministry of 
 
 ### Project 5 - Survey of the mobile operator plans
 
-Company "Megaline" - Federal Mobile operator rolls out new mobile plans - "Smart" and "Ultra". Based on the provided data from mobile oprater it's required to analyze two plans and client's behavior to understand what plan will bring bigger income to the company. 
+Company "Megaline" - Federal Mobile operator rolls out new mobile plans - "Smart" and "Ultra". Based on the provided data from mobile operator it's required to analyze two plans and client's behavior to understand what plan will bring bigger income to the company. 
 
 *More detailed description you can find in readme of Project 5*
 
 ### Project 6  - Recommendation of the mobile phone plans for the mobile operator's company
 
+After the completed analysis in Porject 5 it's required to create a system that could predict the clients behavior and suggest to the client to swith on a new plans (such as "Smart" and "Ultra"). Using the provided data from project 5 it's required to train the classification model for selection of the optimal plan for clients.
+
 *More detailed description you can find in readme of Project 6*
 
 ### Project 7  - Forecast of the loss of clients in the Bank
+
+The client - "Beta-Bank" requested to analyze the reason of the loss of the client, due to the monthly clients loss. The precentage of loss of clients is minor, but bank's marketing department calculated that to keep the clients is cheaper than to attract new clients. Based on the historical data it's required to create a model for prediction of the clients behavior (will client leave the bank soon or not) 
 
 *More detailed description you can find in readme of Project 7*
 
