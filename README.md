@@ -42,7 +42,7 @@ Based on the provided data from real estate company (archive of an apartment sal
 
 ### Project 4  - Survey of the cinema destribution data
 
-Based on the provided data from Ministry of Culture it's required analyze the market of the movies in the cinema theaters.
+Based on the provided data from Ministry of Culture (open data from Ministry of Culture web site) it's required to analyze the market of the movies in the cinema theaters and determine the trends. Additionaly it's required to analyze the movies with goverment support, and answer the question "How much the movies with goverment support are interesting to the viewers?"
 
 *More detailed description you can find in readme of Project 4*
 
