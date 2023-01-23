@@ -15,10 +15,10 @@ Yandex Practicum data scientist programm prpared me for a career of a data analy
 
 **Subject Covered:**
 
--  Pandas, Pyplot, Statistics
--  
-- 
-- 
+-  Python  
+-  Pandas
+-  Pyplot
+-  Statistics
 - 
 - 
 
@@ -50,9 +50,18 @@ Based on the provided data from Ministry of Culture (open data from Ministry of 
 
 ## Part 2 - Statistics and intro to Machine Learning
 
+**Subject Covered:**
+
+- Pandas, Pyplot, Statistics
+-  
+- 
+-
+-
+
+
 ### Project 5 - Survey of the mobile operator plans
 
-Company "Megaline" - Federal Mobile operator rolls out new mobile plans - "Smart" and "Ultra". Based on the provided data from mobile operator it's required to analyze two plans and client's behavior to understand what plan will bring bigger income to the company. 
+Company "Megaline" - Federal Mobile operator rolls out new mobile plans - "Smart" and "Ultra". Based on the provided data from mobile operator it's required to analyze two plans and client's behavior to understand what plan would bring bigger income to the company. 
 
 *More detailed description you can find in readme of Project 5*
 
@@ -70,57 +79,97 @@ The client - "Beta-Bank" requested to analyze the reason of the loss of the clie
 
 ### Project 8  - Selection of the optimal location of the drilling for the oil company
 
+Oil company "GlavGovNeft" would like to drill new hole for oil production. Based on the provided information from company it's required to analyze the data and train the model for the prediction of estimated volume of oil in new boreholes and recommend the location of the hole to the oil company.
+
 *More detailed description you can find in readme of Project 8*
 
 ### Project 9  - Forecast of client loss for the hospitality company 
+
+Hospitality company "As home" wants to incrase the costumers flow. For that purpose company added an option to book the room without downpayment, hovewer company has faced the losses of income in a case of booking cancellation. To solve this issue company wants to develop the System which will predict the booking cancelation. In case of possible cancelation of booking hospitality company client has to make a downpayment of 80% of cost of booking.
 
 *More detailed description you can find in readme of Project 9*
 
 ### Project 10 - Forecast of the real estate price
 
+Basedon the provided data from real estate agence it's required using spark session to conduct an analysis, encode the data and train a regression models for the prediction of the median cost of the house value. First model has to include only numeric parameters, second - numeric and categorical paramters.
+
 *More detailed description you can find in readme of Project 10*
 
 <hr />
 
-## Part 3 - SQL, BIG Data, Linaear Algebra, Calculus, Nerual Networks
+## Part 3 - SQL, Linaear Algebra, Calculus, Nerual Networks
+
+**Subject Covered:**
+
+- SQL
+- Linear Algebra
+- Calculus
+- Neural Networks
+-
 
 ### Project 11 - Personal data protection in insurance company
+
+Insurance company would like to develop a method of protection of client's personal data. It's required to have an option to get the original information (unprotected personal data) after the completion of such protection. The quality of the model prediction shall be the same on the original and protected data. The protection of the personal data shall be done using the matrix oprations.
 
 *More detailed description you can find in readme of Project 11*
 
 ### Project 12 - Definition of the cost of the cars
 
+Car sales company would like to develop an app for the attraction of new clients, in which clients could get the market price of the car based on it's parameters. For that purpose it's required to train a model for the prediction of the car price based on the data provided from company. It's requred to train several model, compare it by quality, training time, prediction time and select the besst model.
+
 *More detailed description you can find in readme of Project 12*
 
 ### Project 13 - Prediction of the star temperature
+
+Astronomy company would like to define the temperature on the surface of the newly spotted stars. For that purpose it's required to predict the star temperature using maching learning and based on the previos data from the database of the stars.
 
 *More detailed description you can find in readme of Project 13*
 
 ### Project 14 - Prediction of the accident possibility for carsharing company
 
+Carsharing company would like to develop system for the evaluation of the risk of accident for the selected route. As risk company understands is possibility of accident with any damage to the vehicle. The system has to evaluate the risk level just after the booking of the car by client. Current task for the company is to understand is it possible to predict the possibility of accident based on the historical data of one of the regions where company operated.
+
 *More detailed description you can find in readme of Project 14*
 
 ### Project 15 - SQL queries
+
+In this project it's required to complete the tasks using SQLalchemy and SQL queries, including additional questions and visualization.
 
 *More detailed description you can find in readme of Project 15*
 
 <hr />
 
 ## Part 4 - Time Series, NLP, Computer Vision
+
+**Subject Covered:**
+
+- Time Series
+- NLP
+- Computer Vision
+-
+-
  
 ### Project 16 - Prediction of the taxi orders in time
 
+Taxi company wants to understand what time is the highest and lowest drivers load for the optimization of the cost and increase of the drivers in a peak drivers load time. Based on the provided historical data from the company (taxi orders in airports) it's required  to predict the quantity of the orders in next hour.
+
 *More detailed description you can find in readme of Project 16*
 
-### Project 17 - Automatization processing of the comments for the internet store
+### Project 17 - Automatization processing of the comments for the online store
+
+Online store just to rolls out new service. With new service the clients can edit and add a description of the products in the store (same as in wiki services). So clients could suggest the edits of descriptions and comment the changes of other clients. Store would like to have a tool wich can classify the comments on toxic and positive. It's required to train a model for the classification of future comments.  
 
 *More detailed description you can find in readme of Project 17*
 
 ### Project 18 - Prediction of the clients age for the grocery store
 
+Grocery store wants to use computer vision system for the clients photos processing for defenition of their ages. It would help the store to analyze the purchases and suggest the relevant products for the exact clients age group, in addition it would check the cashier behavior during the sell of the age restricted products in accordance with compliance with law. For the realization of such tool it's required to train a model which predicts the approximate age of the client by the photo.
+
 *More detailed description you can find in readme of Project 18*
 
 ### Project 19 - Development of the model for image search by text query
+
+Photo hosting for the professinal photographers wants to develop the service of the searching tool for the search of similar photos by text query. Users of hosting can upload the photos with full decription such as place, date, camera model, etc and also can add a description to the photos of others users. Based on the provided data from hosting it's required to develop preliminary version of tool which could find the most suitable image by  text query.
 
 *More detailed description you can find in readme of Project 19*
 
@@ -128,7 +177,9 @@ The client - "Beta-Bank" requested to analyze the reason of the loss of the clie
 
 ## Graduational Project
 
-**Prediction of temperature for optimization of ulectricity costs on steel manufacturing** 
+**Prediction of steel temperature on steel manufacturing** 
+
+For the optimization of electricity costs steel manufacturing company requested to develop the system for the prediction of steel temperature. Based on the provided data from company it's required to conduct an analysis and train a models for the prediction of the steel temprature.
 
 *More detailed description you can find in readme of Project 20*
 
