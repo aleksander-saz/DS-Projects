@@ -18,8 +18,3 @@ Hypotheses:
 
 
 * Users in Moscow and Saint-Petersburg prefer different music genres. Most popular genre in Moscow - pop, in Saint-Petersburg - rap.
-
-
-
-
-

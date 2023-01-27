@@ -17,10 +17,10 @@ Yandex Practicum data scientist programm prpared me for a career of a data analy
 
 -  Python  
 -  Pandas
--  Pyplot
+-  Pyplot 
 -  Statistics
-- 
-- 
+-  PyMystem - lemmatization
+-  
 
 ### Project 1  - Survey of the users behavior in yandex music app
 
