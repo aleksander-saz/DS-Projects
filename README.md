@@ -7,7 +7,7 @@ ____
 
 This repository mainly for projects i've completed during Yandex Practicum Data Scientist Courses.
 
-Yandex Practicum data scientist programm prpared me for a career of a data analyst or scientist
+Yandex Practicum Data Scientist programm prpared me for a career of a data analyst/scientist.
 
 <hr />
 
@@ -20,7 +20,7 @@ Yandex Practicum data scientist programm prpared me for a career of a data analy
 -  Pyplot 
 -  Statistics
 -  PyMystem - lemmatization
--  
+-  Jupyter Notebook
 
 ### Project 1  - Survey of the users behavior in yandex music app
 
@@ -36,7 +36,7 @@ Based on the provided data from client (Credit department of the Bank) it's requ
 
 ### Project 3  - Survey of the advertisements on real estate sales
 
-Based on the provided data from real estate company (archive of an apartment sales in Saint-Petersburg and nearest cities for the past few years) it's required to define arameters which has the highest influence on the market prices of apartments. The definition of these parameters will allow the client to develop the system of automatization  of the price calculation and would tracks the anomalies and scammers activity.
+Based on the provided data from real estate company (archive of an apartment sales in Saint-Petersburg and nearest cities for the past few years) it's required to define parameters which has the highest effect on the market prices of apartments. The definition of these parameters will allow the client to develop the system of automatization of the price calculation and would tracks the anomalies and scammers activity.
 
 *More detailed description you can find in readme of Project 3*
 
