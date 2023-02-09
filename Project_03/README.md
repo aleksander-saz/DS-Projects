@@ -4,7 +4,7 @@ Based on the provided data from real estate company (archive of an apartment sal
 
 For each realty it's available two types of data - recorded by user and automaticly obtained based on the map data. (such as distance to airport, citycenter, etc.)
 
-The main tasks for the project is following:
+The main tasks for the project are following:
 1) Import and anylize the data;
 2) Prepare the data for the further usage;
 3) Calculate: 
