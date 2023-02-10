@@ -37,7 +37,7 @@ Initial data includes two data sets: mkrrf_movies and mkrf_shows.
 Mkrf_movies dataset has 7486 rows and 15 columns:
 - title — movie name;
 - puNumber — box office id;
-- show_start_date — дата премьеры фильма;
+- show_start_date;
 - type — movie type;
 - film_studio;
 - production_country;
@@ -48,7 +48,7 @@ Mkrf_movies dataset has 7486 rows and 15 columns:
 - nonrefundable_support;
 - financing_source;
 - budget;
-- ratings — movice rating on kinopoisk;
+- ratings — movie rating on kinopoisk;
 - genres.
 
 Mkrf_shows dataset has 3158 rows and 2 columns:
