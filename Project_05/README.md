@@ -23,9 +23,9 @@ Company "Megaline" - Federal Mobile operator rolls out new mobile plans - "Smart
 
 
 Provided data includes 5 datasets:
-- calls - data wih information on minutes usage usage by clients;
-- internet - data wih information on mobile internet traffic usage usage by clients;
-- messages - data wih information on messages usage by clients;
+- calls - information on minutes usage by clients;
+- internet - information on mobile internet traffic usage usage by clients;
+- messages - information on messages usage by clients;
 - tariffs - data on the mobile plans in company;
 - users - data on the clients.
 
