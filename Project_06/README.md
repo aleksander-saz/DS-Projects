@@ -9,7 +9,7 @@ After the completed analysis in Porject 5 it's required to create a system that 
 
 2) Extract the target and features and split the dataset on train, valid and test samples.
 
-3) train the models
+3) Train the models
 
 4) Perform the hyperparameters tuning
 
@@ -21,6 +21,7 @@ Provided data includes one dataset - users_behavior.
 
 ## Datasets description: 
 
+users_behavior dataset has 3214 rows and 5 following columns: 
 - calls - information on quantity of calls made by clients;
 - minutes - information on minutes usage by clients;
 - mb_used - information on mobile internet traffic usage by clients;
