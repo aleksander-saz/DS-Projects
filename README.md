@@ -3,7 +3,7 @@
 
 <h1> Certificate:</h1>
 
-https://github.com/aleksander-saz/DS-Projects/blob/main/Certificate/Certificate_ENG%20WM.pdf
+https://github.com/aleksander-saz/DS-Projects/blob/main/Certificate/Certificate_ENG.pdf
 ____
 
 This repository mainly for projects i've completed during Yandex Practicum Data Scientist Courses.
