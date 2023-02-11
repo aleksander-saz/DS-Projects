@@ -3,9 +3,9 @@
 Based on the provided data from real estate agency it's required using spark session to conduct an analysis, encode the data and train a regression models for the prediction of the median cost of realestate price. First model has to include only numeric features, second - numeric and categorical features.
 
 ## The main tasks for the project are following:
-1) Iniate spark session and import the data;
+1) Initiate spark session and import the data;
 
-2) Prepare the data, encode it (using One hot encoding), extract target and features, split it on train, valid samples.
+2) Prepare the data, encode it (using One hot encoding), extract target and features, split it on train and test samples.
 
 3) Train the two models - using all features and only numeric features;
 
