@@ -1,38 +1,83 @@
 
+# Project 9  - Forecast of client loss for the hospitality company 
 
-# Project 7  - Forecast of the loss of clients in the Bank
-
-The client - "Beta-Bank" requested to analyze the reason of the loss of the client, due to the monthly clients loss. The precentage of loss of clients is minor, but bank's marketing department calculated that to keep the clients is cheaper than to attract new clients. Based on the historical data it's required to create a model for prediction of the clients behavior (will client terminate the contract with the bank soon or not) 
+Hospitality company "As home" wants to incrase the costumers flow. For that purpose company added an option to book the room without downpayment, hovewer company has faced the losses of income in a case of booking cancellation. To solve this issue company wants to develop the System which will predict the booking cancelation. In case of possible cancelation of booking hospitality company client has to make a downpayment of 80% of cost of booking.
 
 ## The main tasks for the project are following:
 1) Import the data;
 
-2) Prepare the data, encode it, extract target and features, split it on train, valid and test samples.
+2) Prepare the data and conduct exploratory analysis:
+- check the data and make an adjustments if necessary;
+- make an exploratory analysis. Describe the aspects: nulls and peaks.
 
-3) Train the models. Analyze the classes imbalance. Apply the tool for combat to imbalance.
+3) Calculate business metric. Estimate the profit before the intagration of prediction system.
 
-4) Test the model. The F1 score shall be higher than 0.59.
+4) Build the ML model:
+- train several models;
+- select the model with best score and test it;
+- select the suitable metric for cross-validation;
+- calclate the potential prfit after integration of prediction system.
 
-Provided data includes one dataset - Churn.csv.
+5) Describe the inreliable client. (clients who potentially will cancel the booking).
+
+Provided data includes tow datasets - hotel_train.csv and hotel_test.csv
 
 ## Datasets description: 
 
-Data set has 10000 rows and 15 columns:
+Datasets hotel_train and hotel_test have the same columns names:
+- id - record number;
+- adults - quantity of adults;
+- arrival_date_year;
+- arrival_date_month;
+- arrival_date_week_number;
+- arrival_date_day_of_month;
+- babies;
+- booking_changes;
+- children - quantity of childred 3 to 14 years;
+- country;
+- customer_type:
+    - Contract;
+    - Group;
+    - Transient;
+    - Transient-party.
+- days_in_waiting_list;
+- distribution_channel;
+- is_canceled;
+- is_repeated_guest;
+- lead_time - duration in days beetween booking and check in;
+- meal:
+-    SC;
+-    BB;
+-    HB;
+-    FB;
+- previous_bookings_not_canceled;
+- previous_cancellations;
+- required_car_parking_spaces;
+- reserved_room_type;
+- stays_in_weekend_nights;
+- stays_in_week_nights;
+- total_nights;
+- total_of_special_requests.
 
-Features:
-- RowNumber;
-- CustomerId;
-- Surname;
-- CreditScore;
-- Geography - client country;
-- Gender;
-- Age;
-- Tenure - duration of being bank client in years;
-- Balance - balance on the bank account;
-- NumOfProducts - quantity of bank product used by client;
-- HasCrCard - presence/absence of credit card;
-- IsActiveMember - client activity;
-- EstimatedSalary;
+## Additional conditions:
 
-Target
-- Exited - fact of contract termination with bank
+Deposit cost is 80% of booking;
+
+Hotel has different types of rooms. Booking price is depend on th room type and quantity of the booked nights. The cost of cleaning should be considered. If room booked for a long period - cleaning to be made every two days.
+
+Booking price and room types:
+Type A: price per night - 1 000, one time cleaning - 400;
+Type B: price per night - 800, one time cleaning - 350;
+Type C: price per night - 600, one time cleaning - 350;
+Type D: price per night - 550, one time cleaning - 150;
+Type E: price per night - 500, one time cleaning - 150;
+Type F: price per night - 450, one time cleaning - 150;
+Type G: price per night - 350, one time cleaning - 150.
+
+Hotel price police has a season increase coefficient:
+- the price shall be increased on 20% in midseason (autumn and spring);
+- the price shall be increased on 40$ in summer period.
+
+If booking is cancelled - the hotel faced the losses: cost the one time cleaning and price per one night of the room considering season coefficient.
+
+Prediction system budget is 400 000. The prediction system shall Th investments on the system shall be returned during the test period.
