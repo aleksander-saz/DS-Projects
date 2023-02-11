@@ -66,13 +66,13 @@ Deposit cost is 80% of booking;
 Hotel has different types of rooms. Booking price is depend on th room type and quantity of the booked nights. The cost of cleaning should be considered. If room booked for a long period - cleaning to be made every two days.
 
 Booking price and room types:
-Type A: price per night - 1 000, one time cleaning - 400;
-Type B: price per night - 800, one time cleaning - 350;
-Type C: price per night - 600, one time cleaning - 350;
-Type D: price per night - 550, one time cleaning - 150;
-Type E: price per night - 500, one time cleaning - 150;
-Type F: price per night - 450, one time cleaning - 150;
-Type G: price per night - 350, one time cleaning - 150.
+- Type A: price per night - 1 000, one time cleaning - 400;
+- Type B: price per night - 800, one time cleaning - 350;
+- Type C: price per night - 600, one time cleaning - 350;
+- Type D: price per night - 550, one time cleaning - 150;
+- Type E: price per night - 500, one time cleaning - 150;
+- Type F: price per night - 450, one time cleaning - 150;
+- Type G: price per night - 350, one time cleaning - 150.
 
 Hotel price police has a season increase coefficient:
 - the price shall be increased on 20% in midseason (autumn and spring);
