@@ -90,12 +90,6 @@ Hospitality company "As home" wants to incrase the costumers flow. For that purp
 
 *More detailed description you can find in readme of Project 9*
 
-### Project 10 - Forecast of the real estate price
-
-Based on the provided data from real estate agence it's required using spark session to conduct an analysis, encode the data and train a regression models for the prediction of the median cost of the house value. First model has to include only numeric parameters, second - numeric and categorical paramters.
-
-*More detailed description you can find in readme of Project 10*
-
 <hr />
 
 ## Part 3 - SQL, Linaear Algebra, Calculus, Nerual Networks
@@ -107,6 +101,12 @@ Based on the provided data from real estate agence it's required using spark ses
 - Calculus
 - Neural Networks
 -
+
+### Project 10 - Forecast of the real estate price
+
+Based on the provided data from real estate agence it's required using spark session to conduct an analysis, encode the data and train a regression models for the prediction of the median cost of the house value. First model has to include only numeric parameters, second - numeric and categorical paramters.
+
+*More detailed description you can find in readme of Project 10*
 
 ### Project 11 - Personal data protection in insurance company
 
