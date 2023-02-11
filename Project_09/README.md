@@ -46,10 +46,10 @@ Datasets hotel_train and hotel_test have the same columns names:
 - is_repeated_guest;
 - lead_time - duration in days beetween booking and check in;
 - meal:
--    SC;
--    BB;
--    HB;
--    FB;
+    - SC;
+    - BB;
+    - HB;
+    - FB;
 - previous_bookings_not_canceled;
 - previous_cancellations;
 - required_car_parking_spaces;
