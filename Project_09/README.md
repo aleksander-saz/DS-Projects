@@ -24,6 +24,10 @@ Provided data includes tow datasets - hotel_train.csv and hotel_test.csv
 
 ## Datasets description: 
 
+Hotel_train dataset has 65229 rows and 25 columns.
+
+hotel_test dataset has 32412 rows and 25 columns.
+
 Datasets hotel_train and hotel_test have the same columns names:
 - id - record number;
 - adults - quantity of adults;

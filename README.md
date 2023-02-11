@@ -102,15 +102,15 @@ Hospitality company "As home" wants to incrase the costumers flow. For that purp
 - Neural Networks
 -
 
-### Project 10 - Forecast of the real estate price
+### Project 10 - Forecast of real estate price
 
-Based on the provided data from real estate agence it's required using spark session to conduct an analysis, encode the data and train a regression models for the prediction of the median cost of the house value. First model has to include only numeric parameters, second - numeric and categorical paramters.
+Based on the provided data from real estate agency it's required using spark session to conduct an analysis, encode the data and train a regression models for the prediction of the median cost of realestate price. First model has to include only numeric features, second - numeric and categorical features.
 
 *More detailed description you can find in readme of Project 10*
 
 ### Project 11 - Personal data protection in insurance company
 
-Insurance company would like to develop a method of protection of client's personal data. It's required to have an option to get the original information (unprotected personal data) after the completion of such protection. The quality of the model prediction shall be the same on the original and protected data. The protection of the personal data shall be done using the matrix oprations.
+Insurance company would like to develop a method of protection of client's personal data. It's required to have an option to get the original information (unprotected personal data) after the completion of such protection. The quality of the model prediction shall be the same on the original and protected data. The protection of the personal data shall be done using the matrix operations.
 
 *More detailed description you can find in readme of Project 11*
 
