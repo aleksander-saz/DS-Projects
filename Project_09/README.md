@@ -80,4 +80,4 @@ Hotel price police has a season increase coefficient:
 
 If booking is cancelled - the hotel faced the losses: cost the one time cleaning and price per one night of the room considering season coefficient.
 
-Prediction system budget is 400 000. The prediction system shall Th investments on the system shall be returned during the test period.
+Prediction system budget is 400 000. The investments on the system shall be returned with in the test period.
