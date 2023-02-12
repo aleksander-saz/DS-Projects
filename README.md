@@ -3,7 +3,7 @@
 
 <h1> Certificate:</h1>
 
-Available by [link](https://github.com/aleksander-saz/DS-Projects/blob/main/Certificate/Certificate_ENG.pdf)
+https://github.com/aleksander-saz/DS-Projects/blob/main/Certificate/Certificate_ENG.pdf
 ____
 
 This repository mainly for projects i've completed during Yandex Practicum Data Scientist Courses.
@@ -132,12 +132,6 @@ Carsharing company would like to develop system for the evaluation of the risk o
 
 *Detailed description you can find in readme of Project 14*
 
-### Project 15 - SQL queries
-
-In this project it's required to complete the tasks using SQLalchemy and SQL queries, including additional questions and visualization.
-
-*Detailed description you can find in readme of Project 15*
-
 <hr />
 
 ## Part 4 - Time Series, NLP, Computer Vision
@@ -150,36 +144,34 @@ In this project it's required to complete the tasks using SQLalchemy and SQL que
 -
 -
  
-### Project 16 - Prediction of the taxi orders in time
+### Project 15 - Prediction of the quantity of taxi orders in time
 
-Taxi company wants to understand what time is the highest and lowest drivers load for the optimization of the cost and increase of the drivers in a peak drivers load time. Based on the provided historical data from the company (taxi orders in airports) it's required  to predict the quantity of the orders in next hour.
+Taxi company wants to analyze what time is the highest and lowest drivers load for the optimization of the cost and increase of the drivers in a peak drivers load time. Based on the provided historical data from the company (taxi orders in airports) it's required to develpo the system for prediction of the quantity of the orders in next hour.
 
-*Detailed description you can find in readme of Project 16*
+*Detailed description you can find in readme of Project 15*
 
-### Project 17 - Automatization processing of the comments for the online store
+### Project 16 - Automatization processing of the comments for the online store
 
 Online store just to rolls out new service. With new service the clients can edit and add a description of the products in the store (same as in wiki services). So clients could suggest the edits of descriptions and comment the changes of other clients. Store would like to have a tool wich can classify the comments on toxic and positive. It's required to train a model for the classification of future comments.  
 
-*Detailed description you can find in readme of Project 17*
+*Detailed description you can find in readme of Project 16*
 
-### Project 18 - Prediction of the clients age for the grocery store
+### Project 17 - Prediction of the clients age for the grocery store
 
 Grocery store wants to use computer vision system for the clients photos processing for defenition of their ages. It would help the store to analyze the purchases and suggest the relevant products for the exact clients age group, in addition it would check the cashier behavior during the sell of the age restricted products in accordance with compliance with law. For the realization of such tool it's required to train a model which predicts the approximate age of the client by the photo.
 
-*Detailed description you can find in readme of Project 18*
+*Detailed description you can find in readme of Project 17*
 
-### Project 19 - Development of the model for image search by text query
+### Project 18 - Development of the model for image search by text query
 
 Photo hosting for the professinal photographers wants to develop the service of the searching tool for the search of similar photos by text query. Users of hosting can upload the photos with full decription such as place, date, camera model, etc and also can add a description to the photos of others users. Based on the provided data from hosting it's required to develop preliminary version of tool which could find the most suitable image by  text query.
 
-*Detailed description you can find in readme of Project 19*
+*Detailed description you can find in readme of Project 18*
 
 <hr />
 
-## Graduational Project
-
-**Prediction of steel temperature on steel manufacturing** 
+## Project 19 - Prediction of steel temperature on steel manufacturing
 
 For the optimization of electricity costs steel manufacturing company requested to develop the system for the prediction of steel temperature. Based on the provided data from company it's required to conduct an analysis and train a models for the prediction of the steel temprature.
 
-*Detailed description you can find in readme of Project 20*
+*Detailed description you can find in readme of Project 19*
