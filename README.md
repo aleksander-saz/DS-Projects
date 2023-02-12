@@ -3,11 +3,7 @@
 
 <h1> Certificate:</h1>
 
-<<<<<<< HEAD
-https://github.com/aleksander-saz/DS-Projects/blob/main/Certificate/Certificate_ENG.pdf
-=======
-[Click](https://github.com/aleksander-saz/DS-Projects/blob/main/Certificate/Certificate_ENG.pdf) to view certificate.
->>>>>>> e86edc55567d11b3d2efcf66a701355fc5bf9ca0
+https://github.com/aleksander-saz/DS-Projects/blob/main/Certificate/Certificate_ENG.pdf)
 ____
 
 This repository mainly for projects i've completed during Yandex Practicum Data Scientist Courses.
@@ -31,7 +27,7 @@ Yandex Practicum Data Scientist programm prpared me for a career of a data analy
 
 Based on the provided data of yandex music app it's required to carry out the analysis using pandas library and find the most popular genres in Saint-Petersburg and Moscow. 
 
-*Detailed description you can find in readme of [Project 1](https://github.com/aleksander-saz/DS-Projects/tree/main/Project_01)*
+*Detailed description you can find in [readme of Project 1](https://github.com/aleksander-saz/DS-Projects/tree/main/Project_01)*
 
 ### Project 2  - Survey of the reliablity of the bank clients
 
