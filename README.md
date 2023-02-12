@@ -3,7 +3,11 @@
 
 <h1> Certificate:</h1>
 
+<<<<<<< HEAD
 https://github.com/aleksander-saz/DS-Projects/blob/main/Certificate/Certificate_ENG.pdf
+=======
+[Click](https://github.com/aleksander-saz/DS-Projects/blob/main/Certificate/Certificate_ENG.pdf) to view certificate.
+>>>>>>> e86edc55567d11b3d2efcf66a701355fc5bf9ca0
 ____
 
 This repository mainly for projects i've completed during Yandex Practicum Data Scientist Courses.
@@ -23,11 +27,11 @@ Yandex Practicum Data Scientist programm prpared me for a career of a data analy
 -  PyMystem - lemmatization
 -  Jupyter Notebook
 
-### Project 1  - Survey of the users behavior in yandex music app
+### Project 1 - Survey of the users behavior in yandex music app
 
 Based on the provided data of yandex music app it's required to carry out the analysis using pandas library and find the most popular genres in Saint-Petersburg and Moscow. 
 
-*Detailed description you can find in readme of Project 1*
+*Detailed description you can find in readme of [Project 1](https://github.com/aleksander-saz/DS-Projects/tree/main/Project_01)*
 
 ### Project 2  - Survey of the reliablity of the bank clients
 
@@ -174,4 +178,8 @@ Photo hosting for the professinal photographers wants to develop the service of 
 
 For the optimization of electricity costs steel manufacturing company requested to develop the system for the prediction of steel temperature. Based on the provided data from company it's required to conduct an analysis and train a models for the prediction of the steel temprature.
 
+<<<<<<< HEAD
 *Detailed description you can find in readme of Project 19*
+=======
+*Detailed description you can find in readme of Project 20*
+>>>>>>> e86edc55567d11b3d2efcf66a701355fc5bf9ca0
