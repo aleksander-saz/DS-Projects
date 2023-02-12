@@ -3,7 +3,7 @@
 
 <h1> Certificate:</h1>
 
-https://github.com/aleksander-saz/DS-Projects/blob/main/Certificate/Certificate_ENG.pdf)
+https://github.com/aleksander-saz/DS-Projects/blob/main/Certificate/Certificate_ENG.pdf
 ____
 
 This repository mainly for projects i've completed during Yandex Practicum Data Scientist Courses.
@@ -174,8 +174,4 @@ Photo hosting for the professinal photographers wants to develop the service of 
 
 For the optimization of electricity costs steel manufacturing company requested to develop the system for the prediction of steel temperature. Based on the provided data from company it's required to conduct an analysis and train a models for the prediction of the steel temprature.
 
-<<<<<<< HEAD
 *Detailed description you can find in readme of Project 19*
-=======
-*Detailed description you can find in readme of Project 20*
->>>>>>> e86edc55567d11b3d2efcf66a701355fc5bf9ca0

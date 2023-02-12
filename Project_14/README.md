@@ -1,41 +1,63 @@
-# Project 13 - Prediction of the star temperature
+# Project 14 - Prediction of the accident possibility for carsharing company
 
-Astronomy company would like to define the temperature on the surface of the newly spotted stars. For that purpose it's required to predict the star temperature using maching learning and based on the previos data from the database of the stars.
+Carsharing company would like to develop system for the evaluation of the risk of accident for the selected route. As risk company understands is possibility of accident with any damage to the vehicle. The system has to evaluate the risk level just after the booking of the car by client. Current task for the company is to understand is it possible to predict the possibility of accident based on the historical data of one of the regions where company operated.
 
 ## The main tasks for the project are following:
-1) import and prepare data;
-2) perform the exploratory analysis;
-3) rescale the data, and split it on train and test samples;
-4) build neural networks;
-- decalre the function for training and prediction;
-- plot the comparison chart of actual and predicted star temperature;
-5) perfom the network tuning (using dropout, optimisers, qunatity of layers, activation functions);
-6) Compare and select most suitable model for the star temperature prediction.
+1) connect to database and load the data;
+2) overview the data;
+3) perform the statistical analysis:
+- analyse the statistic of accidents per month;
+- prepare the list of tasks for work team (6 pcs);
+- solve two of them (the tasks answer has to include query, graph and conclusion);
+4) Train the models of evaluation of drivers risk (risk to be the causer of accident):
+- select features which has affect on the accident;
+- perform the statistical analysis of such features;
+- if necessary apply rescaling and encoding;
+5) Select the best model and test it;
+6) Perform the analysis of importance of features that has impact on accident probability;
+7) Propose the tools for reduction of driver's risk to be in accident.
 
-The score of best model shall be 4500 or less.
-
-Background Information:
-- Average Luminosity of Sun) =3.828,10 
-- Average Radius of Sun)  =6.9551,10 
-
-Provided data includes one dataset - data_stars.csv.
+Provided data includes three datasets - collisions, parties and vehicles .
 
 ## Datasets description: 
 
-Data set has 240 rows and 6 columns:
+Data set collisions has 1400000 rows and 20 columns:
+- case_id - table key (unique value);
+- county_city_location - index of region;         
+- county_location - region name;              
+- distance - distance to closest city;                  
+- direction - south/west/north/east;               
+- intersection  -  category was it accident on crossroad or not;              
+- weather_1  - type of weather : clear, cloudy, etc;                  
+- location_type  - type of the road;                
+- collision_damage  - type of vehicle damage: sratch, fatal, etc;
+- party_count  - quantity of parties;        
+- primary_collision_factor - reason of accident;
+- pcf_violation_category - type of violation if applicable;
+- type_of_collision;
+- motor_vehicle_involved_with;
+- road_surface - road surface condition: dry, wet, etc;
+- road_condition_1 - type of road sorface it self;
+- lighting  - type of lighting in accident time;
+- control_device; 
+- collision_date;  
+- collision_time;
 
-Features:
-- relative luminosuty L/Lo  - star luminosity compare to Sun luminosity;
-- relative radius R/Ro - star raius compare to radius of Sun;
-- Absolute star magnitude Mv - physical value, describing the star shining;
-- Star color (white, red, blue, yellow, yellow-orange , etc.). Star color determined during spectral analysis.
-- Star type. Number, correspondant to type:
-    - 0 brown dwarf;
-    - 1 red dwarf;
-    - 2 white dwarf;
-    - 3 Main sequence star;    
-    - 4 supergiant;    
-    - 5 hypergiant;
+Data set parties has 2752408 rows and 9 columns:
+- id - table key (unique value);                   
+- case_id;             
+- party_number;          
+- party_type - car/road sign, road bumper, etc;           
+- at_fault  - 0/1  shows who's fault of accident (if 1 - the party is causer of accident)
+- insurance_premium - abssence/presence of premioum insurace;
+- party_sobriety  - type of sobriety of party
+- party_drug_physical  - drug test of party
+- cellphone_in_use - was party using the phone or not;
 
-Target
-- Absolute temperature T(K) - temperature on the star's surface (Kelvin).
+Data set vehicles has 1021234 rows and 6 columns:
+- id - table key (unique value);                
+- case_id              
+- party_number;          
+- vehicle_type ;        
+- vehicle_transmission ; 
+- vehicle_age; 
