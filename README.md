@@ -152,8 +152,8 @@ Taxi company wants to analyze what time is the highest and lowest drivers load f
 
 ### Project 16 - Automatization processing of the comments for the online store
 
-Online store just to rolls out new service. With new service the clients can edit and add a description of the products in the store (same as in wiki services). So clients could suggest the edits of descriptions and comment the changes of other clients. Store would like to have a tool wich can classify the comments on toxic and positive. It's required to train a model for the classification of future comments.  
-
+Online store just to rolls out new service. With new service the clients can edit and add a description of the products in the store (same as in wiki services). Clients could suggest the edits of descriptions and comment the changes of other clients. Store would like to have a tool wich can classify the comments on toxic and regular. It's required to train a model for the classification of future comments.
+  
 *Detailed description you can find in [readme of Project 16](https://github.com/aleksander-saz/DS-Projects/tree/main/Project_16)*
 
 ### Project 17 - Prediction of the clients age for the grocery store

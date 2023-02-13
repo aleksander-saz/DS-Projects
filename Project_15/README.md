@@ -4,11 +4,11 @@ Taxi company wants to analyze what time is the highest and lowest drivers load f
 
 Main tasks are:
 
-Load the data and perform resampling to 1 hour.
-Perform the data Analysis.
-Train the models with different hypreparameters. The test samplpe shall be equal to 10% of all data.
-Test the best model and draw a conclusion.
-RMSE score on the best model shall not exceed 48.
+1) Load the data and perform resampling to 1 hour.
+2) Perform the data Analysis.
+3) Train the models with different hypreparameters. The test samplpe shall be equal to 10% of all data.
+4) Test the best model and draw a conclusion.
+5) RMSE score on the best model shall not exceed 48.
 
 Provided data includes one dataset - taxi.csv.
 
