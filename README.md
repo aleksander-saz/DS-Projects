@@ -8,7 +8,9 @@ ____
 
 This repository mainly for projects i've completed during Yandex Practicum Data Scientist Courses.
 
-Yandex Practicum Data Scientist programm prpared me for a career of a data analyst/scientist.
+Yandex Practicum Data Scientist programm prpared me for a career of a data analyst/scientist by helping learn to celan and organize data, uncover pattern and insights, prepare the data for the machine learning, train the models considering the business tasks, make the predictions and draw a meanungfull conclusions. I am developing proficiency in Python and it's data analysis and machine liearning libraries and SQL as I build a portfolio of projects.
+
+`Tip:` For data science project I would recommend to install the following libraries: numpy, pandas, scipy, sklearn, matplotlib, seaborn, SQLAlchemy, tensorflow, python,keras.
 
 <hr />
 
