@@ -15,14 +15,6 @@ The tasks to be completed for goal achievement:
 4) Test the vest model and prepare the demo version of it image search;
 5) to draw a conclusion.
 
-The following taks to be performed:
-
-- data import and explorational analysis;
-- prepare the code for GPU calculation;
-- upload the code on GPU for prediction calculation;
-- to analyze the the results of prediction;
-- draw a conclsuion
-
 Provided data includes five datasets:
 - `train_dataset.csv` 
 - `CrowdAnnotations.tsv`
