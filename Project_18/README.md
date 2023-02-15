@@ -7,10 +7,10 @@ Main goal of the project is to develop demo version on image search by text quer
 The tasks to be completed for goal achievement:
 1) import of data and exploratory data analysis;
 2) data preparation:
-- to creat the list of words for censore recognition;
-- deletion of censored
-- to vectorize the text;
-- to vectorize the images;
+    - to creat the list of words for censore recognition;
+    - deletion of censored
+    - to vectorize the text;
+    - to vectorize the images;
 3) to train the models -linear regression and neural networks;
 4) Test the vest model and prepare the demo version of it image search;
 5) to draw a conclusion.

@@ -16,12 +16,12 @@ Yandex Practicum Data Scientist programm prpared me for a career of a data analy
 
 **Subject Covered:**
 
--  Python  
--  Pandas
--  Pyplot 
--  Statistics
--  PyMystem - lemmatization
--  Jupyter Notebook
+-  Python: main pyhton tools, different datatypes -  lists, arrays, dictionaries, etc., loops,functions;
+-  Main tools of pandas library;
+-  Data analysis - starting from tasks definition to visualisation of results and conclusion;
+-  Data preparation: nulls processing, changing data types, duplicates processing, data categorization;
+-  Exploratory Data Analysis: graphs and histogram plotting, join and merge of datasets, slice the data, definition and interpetation of data correlation, automatisation of graph plotting.
+-  Statistics, Pyplot, lemmatization, Jupyter Notebook.
 
 ### Project 1 - Survey of the users behavior in yandex music app
 
@@ -53,11 +53,10 @@ Based on the provided data from Ministry of Culture (open data from Ministry of 
 
 **Subject Covered:**
 
-- Pandas, Pyplot, Statistics
--  
-- 
--
--
+- Statistics: selection of suitable metrics for data description, defenition of histograms types required for evaluation of distinct and continius values, making a conclusion based on the statistical data, probability theory, identification and calculation of standard an dinominal destributions, building and testing of hypothess;
+-  Intro to machine learning: standartd regression and classification models, algorythms of training, training of models and evaluation using sklearn library, studying and testing of models.
+- Machine learning: classification metrics: precision, recall, F1, AUC-ROC, measure the classes weight, combat to imbalance: upsample, downsample, setting the tresholds, Regression: evaluate the the quality of models with R2 and MAE scores;
+- Machnie learning in business: to differ the offline and online metrics, calculation of coonfidence limits and metrics using bootstrap, to use cross-validation for model quality testing.
 
 
 ### Project 5 - Survey of the mobile operator plans
@@ -96,11 +95,11 @@ Hospitality company "As home" wants to incrase the costumers flow. For that purp
 
 **Subject Covered:**
 
-- SQL
-- Linear Algebra
-- Calculus
-- Neural Networks
--
+- SQL: writing of queries of different difficulty, slicing the data, writing frame queries, agregate functions, joiningng and merge tables, etc; SQL-alchemy library, postgre sql;
+- Spark:Mllib: using the system of storage and processing of big data, using Spark;
+- Linear Algebra: opeartions with matrices and vectors, creating classes of machine learning, linear regression principle of operation.
+- Calculus: to calculate the difficulty of algorythms, training the gradient boosting model, using the gradient boosting in business; 
+- Neural Networks: difference of neural networks to standard ML models, buidlinga nd training of neural networks using Pytorch, hyperparameters tuning of NN.
 
 ### Project 10 - Forecast of real estate price
 
@@ -138,11 +137,9 @@ Carsharing company would like to develop system for the evaluation of the risk o
 
 **Subject Covered:**
 
-- Time Series
-- NLP
-- Computer Vision
--
--
+- Time Series: analysis of time series, trends and seasonalities, creating of time series features, training of models on time series datasets.
+- NLP: Text processing, lemmatization, tokenization, vectorization, using TF-IDF, Word2Vec, Bert models, training of models on text;
+- Computer Vision: Training of neural networks using Keras Library, Building the Sequential and convolution neural networks, building of neural networks using ResNet architecture.
  
 ### Project 15 - Prediction of the quantity of taxi orders in time
 
@@ -153,7 +150,7 @@ Taxi company wants to analyze what time is the highest and lowest drivers load f
 ### Project 16 - Automatization processing of the comments for the online store
 
 Online store just to rolls out new service. With new service the clients can edit and add a description of the products in the store (same as in wiki services). Clients could suggest the edits of descriptions and comment the changes of other clients. Store would like to have a tool wich can classify the comments on toxic and regular. It's required to train a model for the classification of future comments.
-  
+
 *Detailed description you can find in [readme of Project 16](https://github.com/aleksander-saz/DS-Projects/tree/main/Project_16)*
 
 ### Project 17 - Prediction of the clients age for the grocery store
@@ -162,7 +159,7 @@ Grocery store wants to use computer vision system for the clients photos process
 
 *Detailed description you can find in [readme of Project 17](https://github.com/aleksander-saz/DS-Projects/tree/main/Project_17)*
 
-### Project 18 - Development of the model for image search by text query
+### Project 18 - Development of the model for search of image by text query
 
 Photo hosting for the professinal photographers wants to develop the service of the searching tool for the search of similar photos by text query. Users of hosting can upload the photos with full decription such as place, date, camera model, etc and also can add a description to the photos of others users. Based on the provided data from hosting it's required to develop preliminary version of tool which could find the most suitable image by  text query.
 
@@ -172,6 +169,6 @@ Photo hosting for the professinal photographers wants to develop the service of 
 
 ## Graduation project - Prediction of steel temperature on steel manufacturing
 
-For the optimization of electricity costs steel manufacturing company requested to develop the system for the prediction of steel temperature. Based on the provided data from company it's required to conduct an analysis and train a models for the prediction of the steel temprature.
+Steel manufacturing company requested to develop the system for the prediction of steel temperature for the optimization of electricity costs. Based on the provided data from company it's required to conduct an analysis and train a models for the prediction of the steel temprature.
 
 *Detailed description you can find in [readme of Project 19](https://github.com/aleksander-saz/DS-Projects/tree/main/Project_19)*
