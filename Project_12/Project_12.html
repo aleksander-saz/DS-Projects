@@ -14633,7 +14633,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Car sales company would like to develop an app for the attraction of new clients, in which clients could get the market price of the car based on it's parameters. For that purpose it's required to train a model for the prediction of the car price based on the data provided from company. It's requred to train several model, compare it by quality, training time, prediction time and select the best model.</p>
+<p>Car sales company would like to develop an app for the attraction of new clients, in which clients could get the market price of the car based on it's parameters. For that purpose it's required to train a model for the prediction of the car price based on the data provided from company. It's required to train several model, compare it by quality, training time, prediction time and select the best model.</p>
 
 </div>
 </div>
@@ -15118,7 +15118,7 @@ memory usage: 43.3+ MB
 <li>Target column - 'price'</li>
 <li>Numeric features are - 'registration year','power','kilometer','registration month','postal code'</li>
 <li>Categorical features are - 'VehicleType','Gearbox','Model','FuelType','Brand','NotRepaired','DateCreated'</li>
-<li>Data set has useles columns and null values, its requred to perform data preparation prior to model training</li>
+<li>Data set has useless columns and null values, its required to perform data preparation prior to model training</li>
 </ul>
 
 </div>
@@ -15143,7 +15143,7 @@ memory usage: 43.3+ MB
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># deletion of useles columns</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># deletion of useless columns</span>
 <span class="n">DF_cars</span> <span class="o">=</span> <span class="n">DF_cars</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;DateCrawled&#39;</span><span class="p">,</span><span class="s1">&#39;LastSeen&#39;</span><span class="p">])</span>
 </pre></div>
 
@@ -15322,7 +15322,7 @@ memory usage: 43.3+ MB
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># datatime value refromating</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># datatime value reformating</span>
 <span class="n">DF_cars</span><span class="p">[</span><span class="s1">&#39;DateCreated&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">DF_cars</span><span class="p">[</span><span class="s1">&#39;DateCreated&#39;</span><span class="p">],</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1">&#39;</span><span class="p">)</span>
 </pre></div>
 
@@ -15985,7 +15985,7 @@ dtype: float64</pre>
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nulls elemination in numeric columns</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nulls elimination in numeric columns</span>
 <span class="n">DF_cars</span><span class="p">[</span><span class="s1">&#39;VehicleType&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">DF_cars</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;Brand&#39;</span><span class="p">,</span> <span class="s1">&#39;Model&#39;</span><span class="p">])[</span><span class="s1">&#39;VehicleType&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">mode</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">x</span><span class="o">.</span><span class="n">mode</span><span class="p">()</span><span class="o">.</span><span class="n">empty</span> <span class="k">else</span> <span class="s2">&quot;unknown&quot;</span><span class="p">))</span>
 </pre></div>
 
@@ -16002,7 +16002,7 @@ dtype: float64</pre>
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nulls elemination in categrical columns</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># nulls elimination in categorical columns</span>
 <span class="n">categorial_columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;VehicleType&#39;</span><span class="p">,</span><span class="s1">&#39;Gearbox&#39;</span><span class="p">,</span><span class="s1">&#39;Model&#39;</span><span class="p">,</span><span class="s1">&#39;FuelType&#39;</span><span class="p">,</span><span class="s1">&#39;Brand&#39;</span><span class="p">,</span><span class="s1">&#39;NotRepaired&#39;</span><span class="p">,</span><span class="s1">&#39;DateCreated&#39;</span><span class="p">]</span>
 <span class="n">categorial_features</span> <span class="o">=</span> <span class="n">DF_cars</span><span class="p">[</span><span class="n">categorial_columns</span><span class="p">]</span>
 <span class="n">categorial_features</span> <span class="o">=</span> <span class="n">categorial_features</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="s1">&#39;unknown&#39;</span><span class="p">)</span>
@@ -17155,12 +17155,12 @@ Wall time: 7.98 ms
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Lnear-regression-model-scores:">Lnear regression model scores:<a class="anchor-link" href="#Lnear-regression-model-scores:">&#182;</a></h3><ul>
+<h3 id="Linear-regression-model-scores:">Linear regression model scores:<a class="anchor-link" href="#Linear-regression-model-scores:">&#182;</a></h3><ul>
 <li><p>RMSE: 3465</p>
 </li>
-<li><p>Training time: 181 miliseconds</p>
+<li><p>Training time: 181 milliseconds</p>
 </li>
-<li><p>Prediction time: 7,98  miliseconds</p>
+<li><p>Prediction time: 7,98  milliseconds</p>
 </li>
 </ul>
 <p>*scores could be different after restart of code</p>
@@ -17263,7 +17263,7 @@ Wall time: 38.9 ms
 </li>
 <li><p>Training time: 45,9 seconds</p>
 </li>
-<li><p>Prediction time: 38,9  miliseconds</p>
+<li><p>Prediction time: 38,9  milliseconds</p>
 </li>
 </ul>
 <p>*scores could be different after restart of code</p>
@@ -17364,9 +17364,9 @@ Wall time: 737 ms
 <h3 id="Random-forest-model-scores:">Random forest model scores:<a class="anchor-link" href="#Random-forest-model-scores:">&#182;</a></h3><ul>
 <li><p>RMSE: 1994</p>
 </li>
-<li><p>Training timeя: 41 seconds</p>
+<li><p>Training time: 41 seconds</p>
 </li>
-<li><p>Prediction time: 737  miliseconds</p>
+<li><p>Prediction time: 737  milliseconds</p>
 </li>
 </ul>
 <p>*scores could be different after restart of code</p>
@@ -17383,8 +17383,8 @@ Wall time: 737 ms
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
 <p><a name = 'section_4'></a></p>
-<h1 id="General-Conclusion">General Conclusion<a class="anchor-link" href="#General-Conclusion">&#182;</a></h1><p>Based on the analysis the preferable model is random forest model, hovewer the trainig time is not the best.</p>
-<p>If it necessary to reduce the training time, it's possible to do using hyperparameters search, hovewer RMSE score could be worse.</p>
+<h1 id="General-Conclusion">General Conclusion<a class="anchor-link" href="#General-Conclusion">&#182;</a></h1><p>Based on the analysis the preferable model is random forest model, however the training time is not the best.</p>
+<p>If it necessary to reduce the training time, it's possible to do using hyperparameters search, however RMSE score could be worse.</p>
 <p>Scores of gradient boosting model also could be increased, but it will also increase the trining time.</p>
 
 </div>

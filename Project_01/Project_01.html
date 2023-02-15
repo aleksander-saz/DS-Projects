@@ -14895,8 +14895,8 @@ memory usage: 4.0+ MB
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Conclusions</strong></p>
-<p>In every row of df is information on the music track. Some columns describe the track itself: name, compsitor, genre. Other columns provide the information on the user: city, day and time of the listening.</p>
-<p>Preiminary we can assume that it's enough data to check the hypotheses, hovewer df has nulls in data and has some colomn names in "bad" style.</p>
+<p>In every row of df is information on the music track. Some columns describe the track itself: name, compositor, genre. Other columns provide the information on the user: city, day and time of the listening.</p>
+<p>Preliminary we can assume that it's enough data to check the hypotheses, hoverer df has nulls in data and has some column names in "bad" style.</p>
 
 </div>
 </div>
@@ -15502,11 +15502,11 @@ dtype: int64</pre>
 <p><strong>Conclusions</strong></p>
 <p>Data preparation has revealed 3 issues in data:</p>
 <ul>
-<li>bad colomns names style;</li>
+<li>bad columns names style;</li>
 <li>nulls in data;</li>
 <li>duplicated data - obvious and implicit</li>
 </ul>
-<p>The columns names were corrected and duplicted deleted.
+<p>The columns names were corrected and duplicated deleted.
 The missing genres were replaced on "unknown".</p>
 <p>After the completion of the data preparation we can start the hypothesis testing.</p>
 
@@ -16015,12 +16015,8 @@ Name: track, dtype: int64</pre>
 <p><strong>Conclusion on Hypothesis one</strong></p>
 <p>The data shows the differences in users behavior:</p>
 <ul>
-<li>The highest quantity of playbacks in Moscom is on Monday and Friday, but of the Wendsday it's lower.</li>
-<li><p>In the Saint-Petersburg is opposite situation - the highest quantity is on Wendsday. On Monday and Friday the quantity of playbacks is lower than on Wendsday and almost the same.</p>
-</li>
-<li><p>В Москве пик прослушиваний приходится на понедельник и пятницу, а в среду заметен спад.</p>
-</li>
-<li>В Петербурге, наоборот, больше слушают музыку по средам. Активность в понедельник и пятницу здесь почти в равной мере уступает среде.</li>
+<li>The highest quantity of playbacks in Moscow is on Monday and Friday, but of the Wednesday it's lower.</li>
+<li>In the Saint-Petersburg is opposite situation - the highest quantity is on Wednesday. On Monday and Friday the quantity of playbacks is lower than on Wednesday and almost the same.</li>
 </ul>
 <p><strong>Hypothesis is correct.</strong></p>
 
@@ -16034,7 +16030,7 @@ Name: track, dtype: int64</pre>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Music-in-the-begining-and-end-of-the-week">Music in the begining and end of the week<a class="anchor-link" href="#Music-in-the-begining-and-end-of-the-week">&#182;</a></h3>
+<h3 id="Music-in-the-beginning-and-end-of-the-week">Music in the beginning and end of the week<a class="anchor-link" href="#Music-in-the-beginning-and-end-of-the-week">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -16327,20 +16323,20 @@ Name: track, dtype: int64</pre>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Hypothesis 2 conclusions</strong></p>
-<p>Comparing top 10 genres of Monday morning we can cocnclude the following:</p>
+<p>Comparing top 10 genres of Monday morning we can conclude the following:</p>
 <ol>
-<li><p>In Moscow and Saint-Petersburg users are listening the similar music. The only difference is that in Moscow top 10 Monday morning rating was icnluded genre "world", but in Saint-Petersburg "jazz" and "classic".</p>
+<li><p>In Moscow and Saint-Petersburg users are listening the similar music. The only difference is that in Moscow top 10 Monday morning rating was included genre "world", but in Saint-Petersburg "jazz" and "classic".</p>
 </li>
-<li><p>In Moscow the were too many playbacks of tracks w/o genres that value "unkown" were placed on the 10th position of most popular genres. That means that data with nulls value has the sufficient portion in the data and puts in the danger the certainty of the survey.</p>
+<li><p>In Moscow the were too many playbacks of tracks w/o genres that value "unknown" were placed on the 10th position of most popular genres. That means that data with nulls value has the sufficient portion in the data and puts in the danger the certainty of the survey.</p>
 </li>
 </ol>
-<p>On the Friday evenening the result of analysis is similar.Some of the genres goes up, another goes dwn, bot overall top 10 genres stay the same.</p>
-<p>The second hepothesis was confirmed only partially:</p>
+<p>On the Friday evening the result of analysis is similar.Some of the genres goes up, another goes dwn, bot overall top 10 genres stay the same.</p>
+<p>The second hypothesis was confirmed only partially:</p>
 <ul>
-<li>Users are listeting the similar music in the beginning and the end of the week.</li>
-<li>Differnece in genres priority in Moscow and Saint-Petersburg is slighlty different. In Moscow users prefer russian pop music, in Saint-Petersburg jazz</li>
+<li>Users are listening the similar music in the beginning and the end of the week.</li>
+<li>Difference in genres priority in Moscow and Saint-Petersburg is slightly different. In Moscow users prefer russian pop music, in Saint-Petersburg jazz</li>
 </ul>
-<p>Hovewer the nulls in data is not allowed us to confirm the result on 100%. The quantity of null genres in Moscow is so high that the rationg of top 10 genres could be different if that data were not lost.</p>
+<p>However the nulls in data is not allowed us to confirm the result on 100%. The quantity of null genres in Moscow is so high that the rating of top 10 genres could be different if that data were not lost.</p>
 
 </div>
 </div>
@@ -16520,8 +16516,8 @@ Name: user_id, dtype: int64</pre>
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Hypothesis is correct only partially:</p>
 <ul>
-<li>Pop Music - the most popoular genre in Moscow, as it was origionally stated in hypothesis. Moreover the top 10 genres includes also russion pop music.</li>
-<li>Against the expectations rap is not the most popular genre in Saint-Petersburg, but it has similar popuarity in both cities.</li>
+<li>Pop Music - the most popular genre in Moscow, as it was originally stated in hypothesis. Moreover the top 10 genres includes also russian pop music.</li>
+<li>Against the expectations rap is not the most popular genre in Saint-Petersburg, but it has similar popularity in both cities.</li>
 </ul>
 
 </div>
@@ -16546,41 +16542,25 @@ Name: user_id, dtype: int64</pre>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ol>
-<li>Day of the week has difference infuelnce on the users activity in Moscow and Saint-Petersburg.</li>
+<li>Day of the week has difference affect on the users activity in Moscow and Saint-Petersburg.</li>
 </ol>
 <p><strong>First hypothesis is correct.</strong></p>
 <ol>
-<li>Music preferences has a slighly changes during the day of the week in Moscor or Saint-Petersburg. A small differences is appeared only in the beginning of the week, on mondays:</li>
+<li>Music preferences has a slightly changes during the day of the week in Moscow or Saint-Petersburg. A small differences is appeared only in the beginning of the week, on mondays:</li>
 </ol>
 <ul>
 <li>in Moscow users prefer "world" genre</li>
-<li>in Saint-Petersbirg - jazz or classic</li>
+<li>in Saint-Petersburg - jazz or classic</li>
 </ul>
-<p><strong>Therefore second hypothesis was correct only partially. The result of hyputhesis testing could be different if the data has full information on all genres (less nulls).</strong></p>
+<p><strong>Therefore second hypothesis was correct only partially. The result of hypothesis testing could be different if the data has full information on all genres (less nulls).</strong></p>
 <ol>
-<li>Users preferences in Moscow and Saint-Petersburg have more common rather than differenet. Against the expectations the genre preferences in both cities are very similar.</li>
+<li>Users preferences in Moscow and Saint-Petersburg have more common rather than different. Against the expectations the genre preferences in both cities are very similar.</li>
 </ol>
 <p><strong>Third hypothesis is not correct. The difference in music preferences in the both cities is minor and could not be spotted on the most part of users.</strong></p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 </body>
 

@@ -14689,7 +14689,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># display furst 5 rows</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># display first 5 rows</span>
 <span class="n">dataset</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
@@ -14798,7 +14798,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># display the data destribution</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># display the data distribution</span>
 <span class="n">dataset</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 
@@ -14999,7 +14999,7 @@ memory usage: 195.4 KB
 <div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># selcetion of features</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># selection of features</span>
 <span class="n">features</span> <span class="o">=</span> <span class="n">dataset</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span> <span class="o">=</span> <span class="s1">&#39;Страховые выплаты&#39;</span><span class="p">)</span>
 </pre></div>
 
@@ -15018,7 +15018,7 @@ memory usage: 195.4 KB
 <p><strong>Conclusion:</strong></p>
 <ul>
 <li>Dataset imported and has 5000 rows and 5 columns: sex, age, salary, quantity of persons in family and insurance payment. </li>
-<li>Datast splited on taarget and features. Target is column 'Страховые выплаты'.</li>
+<li>Dataset splat on target and features. Target is column 'Страховые выплаты'.</li>
 <li>After import, overview and selection of target and features it's possible to move on the next step.</li>
 </ul>
 
@@ -15125,7 +15125,7 @@ $$</p>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Question</strong></p>
-<p>Features to be multiplied on шnverse matrix. Will affect on the linear regression quality?</p>
+<p>Features to be multiplied on inverse matrix. Will affect on the linear regression quality?</p>
 <p>a. Quality to be changed. Provide the example of such matrix.</p>
 <p>b. Quality will remain the same. Specify how does the features of linear regression in multiplied matrix and original are related.</p>
 
@@ -15751,7 +15751,7 @@ Name: Страховые выплаты, dtype: int64</pre>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Answer:</strong> Quality will remain the same.</p>
-<p><strong>Validation:</strong>  Features of original and transformed matrixes are differnt only in the multiplication on the generated matrix.</p>
+<p><strong>Validation:</strong>  Features of original and transformed matrixes are different only in the multiplication on the generated matrix.</p>
 <p>example of matrixes multiplication:</p>
 
 <pre><code>a b 
@@ -15790,8 +15790,8 @@ c1+d3 c2+d4</code></pre>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Algorithm</strong></p>
-<p>1) Generation of rendom matrix with length equal to features width.</p>
-<p>2) Test of generated matrix to be invertable. If matrix invertable - matrix is accepted, if not, the new matrix to be generated until the we will not get the invertable matrix.</p>
+<p>1) Generation of random matrix with length equal to features width.</p>
+<p>2) Test of generated matrix to be invertible. If matrix invertible - matrix is accepted, if not, the new matrix to be generated until the we will not get the invertible matrix.</p>
 <p>3) Features to be multiplied on generated matrix.</p>
 
 </div>
@@ -15805,7 +15805,7 @@ c1+d3 c2+d4</code></pre>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Validation</strong></p>
-<p>After the multiplication of features on invertable matrix there is always an option to get the original data, multiplied the transformed feature on inverted generated matrix.</p>
+<p>After the multiplication of features on invertible matrix there is always an option to get the original data, multiplied the transformed feature on inverted generated matrix.</p>
 <p>The data in dataset to be protected, due to the fact that without generated matrix there will be no way get the original data. The reversed transformation is possible due to the fact that if generated matrix will be multiplied on inverted matrix we will get the unity matrix - E.</p>
 
 </div>
@@ -16014,9 +16014,9 @@ c1+d3 c2+d4</code></pre>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <ul>
-<li>Data successfully imported, features and target selected. Target columns is'Страховые выплаты'.</li>
-<li>The data protection algorithm developed - multiplication of features on ivertable matrix allow to protect the data.</li>
-<li>The algorithm has positive result during testing - the quality of model are remain the same on the oroginal ans transformed data.</li>
+<li>Data successfully imported, features and target selected. Target columns is 'Страховые выплаты'.</li>
+<li>The data protection algorithm developed - multiplication of features on invertible matrix allow to protect the data.</li>
+<li>The algorithm has positive result during testing - the quality of model are remain the same on the original ans transformed data.</li>
 </ul>
 
 </div>
