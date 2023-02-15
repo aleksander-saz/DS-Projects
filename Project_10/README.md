@@ -1,6 +1,6 @@
 # Project 10 - Forecast of real estate price
 
-Based on the provided data from real estate agency it's required using spark session to conduct an analysis, encode the data and train a regression models for the prediction of the median cost of realestate price. First model has to include only numeric features, second - numeric and categorical features.
+Based on the provided data from real estate agency it's required using spark session to conduct an analysis, encode the data and train a regression models for the prediction of the median cost of real estate price. First model has to include only numeric features, second - numeric and categorical features.
 
 ## The main tasks for the project are following:
 1) Initiate spark session and import the data;

@@ -29,12 +29,12 @@ Oil company "GlavGovNeft" would like to drill new hole for oil production. Based
 
 ## Additional conditions:
 - during the boreholes exploration only 500 boreholes could be selected in region;
-- using ML algorithms only 200 boreholes could be selected for furthe development;
+- using ML algorithms only 200 boreholes could be selected for further development;
 - total budget is 10 billion rubles;
 - price per one barrel is 450 rubles, income per one unit of product is 450 k rubles;
-- only regioons with risk less than 2.5% could be selected;
+- only regions with risk less than 2.5% could be selected;
 - between the regions with risks less than 2.5% the region with highest profit to be selected.
-- data is artifical - contract details and boreholes location is confidential information.
+- data is artificial - contract details and boreholes location is confidential information.
 
 
 Provided data includes three datasets - geo_data_0,geo_data_1,geo_data_2;
@@ -44,7 +44,7 @@ Provided data includes three datasets - geo_data_0,geo_data_1,geo_data_2;
 Data sets has 10000 rows and 5 columns:
 
 Features:
-- id - unqie borehole identifier;
+- id - unique borehole identifier;
 - f0 - borehole feature;
 - f1 - borehole feature;
 - f2 - borehole feature;

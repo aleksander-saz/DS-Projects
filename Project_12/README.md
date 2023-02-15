@@ -1,6 +1,6 @@
 # Project 12 - Definition of the prices of the cars
 
-Car sales company would like to develop an app for the attraction of new clients, in which clients could get the market price of the car based on it's parameters. For that purpose it's required to train a model for the prediction of the car price based on the data provided from company. It's requred to train several model, compare it by quality, training time, prediction time and select the best model.
+Car sales company would like to develop an app for the attraction of new clients, in which clients could get the market price of the car based on it's parameters. For that purpose it's required to train a model for the prediction of the car price based on the data provided from company. It's required to train several model, compare it by quality, training time, prediction time and select the best model.
 
 ## The main tasks for the project are following:
 1) to import and overview data, select features and target;

@@ -1,7 +1,7 @@
 
 # Project 6  - Recommendation of the mobile phone plans for the mobile operator's company
 
-After the completed analysis in Porject 5 it's required to create a system that could predict the clients behavior and suggest to the client to swith on a new plans (such as "Smart" and "Ultra"). Using the provided data from project 5 it's required to train the classification model for selection of the optimal plan for clients.
+After the completed analysis in Project 5 it's required to create a system that could predict the clients behavior and suggest to the client to switch on a new plans (such as "Smart" and "Ultra"). Using the provided data from project 5 it's required to train the classification model for selection of the optimal plan for clients.
 
 
 ## The main tasks for the project are following:

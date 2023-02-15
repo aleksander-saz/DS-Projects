@@ -1,8 +1,8 @@
 # Graduation project - Prediction of steel temperature on steel manufacturing
 
-Steel manufacturing company requested to develop the system for the prediction of steel temperature for the optimization of electricity costs. Based on the provided data from company it's required to conduct an analysis and train a models for the prediction of the steel temprature.
+Steel manufacturing company requested to develop the system for the prediction of steel temperature for the optimization of electricity costs. Based on the provided data from company it's required to conduct an analysis and train a models for the prediction of the steel temperature.
 
-**Project goal:** train a model for the prediction of the steel temprature for optimisaztion of elictricity cost during production..
+**Project goal:** train a model for the prediction of the steel temperature for optimization of electricity cost during production..
 
 The tasks to be completed for goal achievement:
 1) To connect to database and load the initial data;
@@ -54,4 +54,4 @@ Dataset steel.data_wire_time
     - Wire1 ... Wire15 - time of inserted wired material.
 
 All datasets has columns "key" with batch number. 
-Datasets could have several rows with same key: the recurrence is related to the nummber of iteration.
+Datasets could have several rows with same key: the recurrence is related to the number of iteration.

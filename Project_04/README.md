@@ -1,35 +1,35 @@
-# Project 4  - Survey of the cinema destribution data
+# Project 4  - Survey of the cinema distribution data
 
-Based on the provided data from Ministry of Culture (open data from Ministry of Culture web site) it's required to analyze the market of the movies in the cinema theaters and determine the trends. Additionaly it's required to analyze the movies with goverment support, and answer the question "Does the movies with goverment support are interesting to the viewers?"
+Based on the provided data from Ministry of Culture (open data from Ministry of Culture web site) it's required to analyze the market of the movies in the cinema theaters and determine the trends. Additionally it's required to analyze the movies with government support, and answer the question "Does the movies with government support are interesting to the viewers?"
 
 
 The main tasks for the project are following:
-1) Import and anylize the data;
+1) Import and analyze the data;
 
 2) Data preparation:
 - fill the empty values;
 - duplicates processing;
 - analyze categorical columns;
 - update the incorrect values of columns "types";
-- analyze numeric colimns;
+- analyze numeric columns;
 - extract year when movies were issued;
-- exctract the name of leading director;
+- extract the name of leading director;
 - extract leading movie genre;
-- calculate the percentage of movies with goverment support;
+- calculate the percentage of movies with government support;
 
-3) Perform the explorational analysis: 
-- Analyze the quantity of issed movies per year, and it's dynamics;
-- Calcuate the percentage of movies with specified box office infomration;
-- Anylyze the changes of data by year;
+3) Perform the exploratory analysis: 
+- Analyze the quantity of issued movies per year, and it's dynamics;
+- Calculate the percentage of movies with specified box office information;
+- Analyze the changes of data by year;
 - What year has the highest and lowest box office revenue index?;
 - calculate average and median value of box office revenue per year;
 - compare the revenues of movies with different types of age restriction;
 - what type of age restriction movies has highest box office revenue?;
 - does it changes every year?
 
-4) Perform the analyzis of movies with goverment support:
-- analyze the amounts of goverments support;
-- analyze the ROI rates for movies with goverment support;
+4) Perform the analysis of movies with government support:
+- analyze the amounts of governments support;
+- analyze the ROI rates for movies with government support;
 - analyze the ratings of such movies.
 
 Initial data includes two data sets: mkrrf_movies and mkrf_shows.

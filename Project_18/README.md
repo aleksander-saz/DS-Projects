@@ -1,13 +1,13 @@
 # Project 18 - Development of the model for search of image by text query
 
-Photo hosting for the professinal photographers wants to develop the service of the searching tool for the search of similar photos by text query. Users of hosting can upload the photos with full decription such as place, date, camera model, etc and also can add a description to the photos of others users. Based on the provided data from hosting it's required to develop preliminary version of tool which could find the most suitable image by text query.
+Photo hosting for the professional photographers wants to develop the service of the searching tool for the search of similar photos by text query. Users of hosting can upload the photos with full description such as place, date, camera model, etc and also can add a description to the photos of others users. Based on the provided data from hosting it's required to develop preliminary version of tool which could find the most suitable image by text query.
 
 Main goal of the project is to develop demo version on image search by text query.
 
 The tasks to be completed for goal achievement:
 1) import of data and exploratory data analysis;
 2) data preparation:
-    - to creat the list of words for censore recognition;
+    - to create the list of words for sensitive content recognition;
     - deletion of censored
     - to vectorize the text;
     - to vectorize the images;
@@ -36,26 +36,26 @@ One image could have up to 5 text queries. Query id has the following format: - 
 
 Folder train_images has images for models training;
 
-File CrowdAnnotations.tsv - has data with infromation of correspondence of the image and query, obtained from crouwdsource. The columns numbers following:
+File CrowdAnnotations.tsv - has data with information of correspondence of the image and query, obtained from crowd source. The columns numbers following:
 
 Image file name.
 Query id..
-Percentage of people who confirmed the image and query correspondance.
-Quantity of pepole who confirm that query fit to image.
-Quantity of pepole who does not confirm that query fit to image.
-File ExpertAnnotations.tsv has data on has data with infromation of correspondence of the image and query, obtained during the expers questionnaire. The columns are following:
+Percentage of people who confirmed the image and query correspondence.
+Quantity of people who confirm that query fit to image.
+Quantity of people who does not confirm that query fit to image.
+File ExpertAnnotations.tsv has data on has data with information of correspondence of the image and query, obtained during the experts questionnaire. The columns are following:
 
 Image file name.
 Query id.
 3, 4, 5 - Experts rating.
 
-Experts are rate the correspendance of image in query using the following scale:
+Experts are rate the correspondence of image in query using the following scale:
 
 1) - image does not match query;
 
-2) - query has a desription of a few elements of image, but overall not related to image;
+2) - query has a description of a few elements of image, but overall not related to image;
 
-3) - query and image correspond to each other with descreption of the details;
+3) - query and image correspond to each other with description of the details;
 
 4) - query and image match on 100%.
 
